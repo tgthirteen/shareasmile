@@ -1,0 +1,32 @@
+.hide-bullets {
+	list-style: none;
+	margin-left: -40px;
+	margin-top: 20px;
+}
+
+.thumbnail{
+	padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img{
+	width: 100%;
+}
+
+.container {
+	margin-top:220px;
+}
+
+@media (max-width:767px){
+
+.hide-bullets{
+	list-style:none;
+	margin-left: -40px;
+	margin-top: 100%; 
+}
+
+.container {
+	margin-top: 20%;
+}
+
+}
+
